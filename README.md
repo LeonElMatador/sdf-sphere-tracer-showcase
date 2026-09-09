@@ -3,7 +3,7 @@
 A software 3D renderer written in **C++** that combines a classic rasterization pipeline with **sphere tracing on signed distance functions (SDFs)**. A full-screen quad is rasterized, and each fragment is shaded by sphere-tracing a ray through a scene of implicit surfaces — at each step the ray advances by exactly the current SDF distance (guaranteeing no overshoot), rather than a fixed-size step. This is the same approach used in many real-time shader-based renderers (Shadertoy-style), implemented here entirely on the CPU.
 
 <!-- Add a render here, e.g.: -->
-<!-- ![render](renders/starwars.gif) -->
+![render](renders/starwars.gif)
 
 ## Features
 
