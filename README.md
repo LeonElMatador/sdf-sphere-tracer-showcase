@@ -58,7 +58,7 @@ Scenes are built declaratively: primitives are created with `makeTemp(Type, name
 ## Team & contribution
 
 This was a **team project**, developed with Jules D. and Axelle D.
-The full source code and commit history live in the original team repository: [link to team repo].
+The full source code and commit history live in the original team repository, which is private.
 
 ## Notes
 
