@@ -18,6 +18,8 @@ A software 3D renderer written in **C++** that combines a classic rasterization 
   - Static renders exported to **PNG** (via `stb_image_write`).
   - Animated scenes exported to **GIF** (via `gif.h`), with scene parameters driven by a time variable.
 
+![render](renders/carre_infini2.png)
+
 ## Project structure
 
 | File | Role |
@@ -41,6 +43,8 @@ make        # build and render the static scene defined in main.cpp -> result.pn
 make anim   # build and render the animated scene defined in animation.cpp -> result.gif
 make clean  # remove build artifacts
 ```
+
+![render](renders/total_en_roue_libre.gif)
 
 Requires a C++ compiler with OpenMP support (e.g. `g++`).
 
